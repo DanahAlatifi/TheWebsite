@@ -1,0 +1,170 @@
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  font-size: 50px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  color: #333; /* Dark gray text for readability */
+}
+
+h1 {
+  font-family: cursive;
+  color: #4285f4; /* Google blue */
+  text-align: center;
+}
+
+p {
+  font-family: cursive;
+  color: #555; /* Slightly lighter gray */
+  font-size: larger;
+  text-align: center;
+}
+
+p#number {
+  font-family: cursive;
+  color: #777; /* Even lighter gray */
+  font-size: 70%;
+  padding: 3%;
+  text-align: center;
+}
+
+#list-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  display: none;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  opacity: 1; /* Reset opacity for better visibility */
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #eee; /* Very light gray */
+}
+
+#input-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #444; /* Another gray shade */
+  font-size: 30px;
+  text-align: left;
+}
+
+h3 {
+  color: #26a69a; /* Teal color */
+  font-family: cursive;
+  clear: both;
+  list-style: none;
+  text-align: center;
+}
+
+h4 {
+  color: #666;
+  font-family: cursive;
+  text-align: center;
+}
+
+#deleteBtn- {
+  white-space: nowrap;
+  border: none;
+  color: #666;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;
+  margin-left: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  border-radius: 4px;
+  background-color: #eee; /* Light gray */
+  color: #333;
+  text-align: center;
+  font-size: 28px;
+  gap: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+input[type="checkbox" i] {
+  margin: 7px 20px;
+  position: relative;
+  top: 15px;
+  transform: scale(1.5);
+}
+
+.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li * {
+  float: left;
+}
+
+input,
+button {
+  outline: none;
+}
+
+button {
+  background: none;
+  border: 0px;
+  color: #777;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #333;
+}
+
+/* Style Input */
+#text {
+  width: 300px;
+  height: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #ccc; /* Add a light gray border to input */
+}
+
+#pop {
+  width: 100px;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border-radius: 10%;
+}
+
+#pop:hover {
+  background-color: #367c39; /* Darker green on hover */
+}
+
+#del {
+  margin-left: 10px;
+}
